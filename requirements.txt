@@ -1,0 +1,5 @@
+
+osmnx == 1.9.4
+geopandas==0.14.4
+matplotlib==3.9.0
+pillow==10.3.0

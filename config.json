@@ -1,0 +1,83 @@
+{
+	"center_longitude": 121.48803492847588,
+	"center_latitude": 31.228343350622954,
+	"distance": 6000,
+	"aspect_ratio": 1.5,
+	"points_of_interest": [
+		{
+			"name": "Old Home",
+			"coords": [
+				121.45806,
+				31.22222
+			],
+			"icon": "icons/home2.png"
+		},
+		{
+			"name": "Oriental Pearl Tower",
+			"coords": [
+				121.4998,
+				31.2397
+			],
+			"icon": "icons/pearl_tower_2.png"
+		},
+		{
+			"name": "Yuan Garden",
+			"coords": [
+				121.48803492847588,
+				31.228343350622954
+			],
+			"icon": "icons/yuan_garden2.png"
+		},
+		{
+			"name": "Nanjing Road Pedestrian Street",
+			"coords": [
+				121.47795104980469,
+				31.238527297973633
+			],
+			"icon": "icons/Nanjing Road Pedestrian Street2.png"
+		}
+	],
+	"road_styles": {
+		"motorway": {
+			"color": "#000000",
+			"width": 3
+		},
+		"primary": {
+			"color": "#222222",
+			"width": 2
+		},
+		"secondary": {
+			"color": "#444444",
+			"width": 1.5
+		},
+		"tertiary": {
+			"color": "#666666",
+			"width": 1
+		},
+		"residential": {
+			"color": "#888888",
+			"width": 0.5
+		},
+		"service": {
+			"color": "#aaaaaa",
+			"width": 0.25
+		}
+	},
+	"metro_colors": {
+		"上海地铁3号线": "#FFB3BA",
+		"上海地铁3/4号线": "#FFDFBA",
+		"上海地铁4号线": "#FFFFBA",
+		"上海地铁6号线": "#BAFFC9",
+		"上海地铁10号线": "#BAE1FF",
+		"上海地铁8号线": "#FFC9FF",
+		"上海地铁13号线": "#FFCCE5",
+		"上海地铁12号线": "#CCFFE5",
+		"上海地铁11号线": "#CCE5FF",
+		"上海地铁1号线": "#E5CCFF",
+		"上海地铁2号线": "#FFCCCC",
+		"上海地铁9号线": "#CCFFCC",
+		"上海地铁7号线": "#CCCCFF",
+		"上海地铁14号线": "#FFE5CC",
+		"上海地铁18号线": "#E5FFCC"
+	}
+}
