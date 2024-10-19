@@ -1,8 +1,8 @@
 {
 	"center_longitude": 121.48803492847588,
 	"center_latitude": 31.228343350622954,
-	"distance": 6000,
-	"aspect_ratio": 1.5,
+	"distance": 5000,
+	"aspect_ratio": 1,
 	"points_of_interest": [
 		{
 			"name": "Old Home",

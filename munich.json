@@ -1,0 +1,52 @@
+{
+	"center_longitude": 11.576124,
+	"center_latitude": 48.137154,
+	"distance": 4000,
+	"aspect_ratio": 1,
+	"points_of_interest": [
+		{
+			"name": "Frauenkirche",
+			"coords": [
+				11.5730,
+				48.1387
+			],
+			"icon": "icons/frauenkirche.jpg"
+		}
+	],
+	"road_styles": {
+		"motorway": {
+			"color": "#0000FF",
+			"width": 4
+		},
+		"primary": {
+			"color": "#1E90FF",
+			"width": 3
+		},
+		"secondary": {
+			"color": "#87CEFA",
+			"width": 2.5
+		},
+		"tertiary": {
+			"color": "#B0E0E6",
+			"width": 2
+		},
+		"residential": {
+			"color": "#ADD8E6",
+			"width": 1.5
+		},
+		"service": {
+			"color": "#E0FFFF",
+			"width": 1.0
+		}
+	},
+	"metro_colors": {
+		"U1": "#0000FF",
+		"U2": "#1E90FF",
+		"U3": "#87CEFA",
+		"U4": "#B0E0E6",
+		"U5": "#ADD8E6",
+		"U6": "#E0FFFF",
+		"U7": "#B0C4DE",
+		"U8": "#4682B4"
+	}
+}

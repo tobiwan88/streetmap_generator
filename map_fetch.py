@@ -106,6 +106,7 @@ def plot_metro_lines(ax, metro_lines, metro_colors):
         try:
             metro_lines[metro_lines['name'] == line_name].plot(
                 ax=ax, color=metro_colors[line_name], linewidth=2)
+            logging.info(f"Plotting metro line {line_name}")
         except Exception as e:
             logging.error(f"Error plotting metro line {line_name}: {e}")
 
@@ -180,7 +181,7 @@ def generate_map(output, config):
     max_latitude = km_to_lat(half_height, center_latitude)
 
     G = ox.graph_from_point((center_latitude, center_longitude),
-                            dist=distance,
+                            dist=distance * 1.5,
                             network_type='all')
 
     water = ox.geometries_from_point((center_latitude, center_longitude),
@@ -211,7 +212,6 @@ def generate_map(output, config):
     ax.set_ylim(min_latitude, max_latitude)
     ax.set_axis_off()
 
-    current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     plt.savefig(f"{output}", dpi=600, bbox_inches="tight")
 
 
